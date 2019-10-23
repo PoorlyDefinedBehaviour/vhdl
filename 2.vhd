@@ -4,12 +4,12 @@ use work.alert;
 
 entity alert_with_sensor is
 	port(
-			door: in std_logic;
-			ignition: in std_logic;
-			seat_belt: in std_logic;
-			sensor: in std_logic;
-			s: out std_logic
-		);
+		door: in std_logic;
+		ignition: in std_logic;
+		seat_belt: in std_logic;
+		sensor: in std_logic;
+		s: out std_logic
+	);
 end alert_with_sensor;
 
 architecture alert_with_sensor_behaviour of alert_with_sensor is
